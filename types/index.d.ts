@@ -151,7 +151,7 @@ declare interface BankInfoProps {
 declare interface HeaderBoxProps {
   type?: "title" | "greeting";
   title: string;
-  subtext: string;
+  subtitle: string;
   user?: string;
 }
 
@@ -246,7 +246,7 @@ declare interface CategoryProps {
   category: CategoryCount;
 }
 
-declare interface DoughnutChartProps {
+declare interface DonutChartProps {
   accounts: Account[];
 }
 
