@@ -1,5 +1,12 @@
-import { SignUp } from "@clerk/nextjs";
+import AuthForm from '@/components/shared/AuthForm'
+import React from 'react'
 
-export default function Page() {
-  return <SignUp path="/sign-up" />;
+const SignUp = () => {
+  return (
+    <section className='flex-center size-full max-sm:px-6'>
+      <AuthForm type='sign-up' />
+    </section >
+  )
 }
+
+export default SignUp
